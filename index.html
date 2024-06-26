@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحميل تطبيق العلاج بالأشعة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: #4CAF50; /* لون خلفية الزر */
+            color: white; /* لون نص الزر */
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 0;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>تحميل تطبيق العلاج بالأشعة</h1>
+        <p>اضغط على الزر أدناه لتحميل تطبيق العلاج بالأشعة.</p>
+        <button class="button" onclick="downloadApp()">تحميل التطبيق</button>
+    </div>
+
+    <script>
+        function downloadApp() {
+            window.location.href = 'path/to/your/application.apk'; // استبدل هذا المسار بمسار التطبيق الفعلي في مشروعك
+        }
+    </script>
+
+</body>
+</html>
